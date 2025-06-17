@@ -1,14 +1,11 @@
-# 🏦 Riddhi's Advanced Banking System
+# Banking System
 
-**Professional C++ Banking Management System with Modern Features**
+**C++ Banking Management System with Modern Features**
 
-*Developed by Riddhi Chakraborty*
 
----
+## Features Overview
 
-## ✨ Features Overview
-
-### 🔐 Core Banking Operations
+### Core Banking Operations
 - **Account Creation** - Create new savings/current accounts with unique RC-prefixed account numbers
 - **Money Deposit** - Secure deposit functionality with real-time balance updates
 - **Money Withdrawal** - Safe withdrawal with balance validation and minimum balance enforcement
@@ -16,7 +13,7 @@
 - **Money Transfer** - Inter-account transfers with dual transaction logging
 - **Account Details** - Complete account information display with creation date
 
-### 🚀 Advanced Features
+### Advanced Features
 - **Transaction History** - Complete transaction tracking with date/time stamps
 - **Account Statements** - Generate and export detailed PDF-style account statements
 - **Account Deactivation** - Secure account closure with confirmation system
@@ -24,16 +21,15 @@
 - **Data Persistence** - Automatic file-based data storage with error handling
 - **Professional UI** - Beautiful console interface with ASCII art and formatting
 
-### 🛡️ Security & Validation
+### Security & Validation
 - **Password Protection** - Secure authentication for all operations
 - **Account Validation** - Comprehensive account number and status verification
 - **Balance Enforcement** - Minimum balance requirement (₹100)
 - **Transaction Validation** - Amount validation and insufficient funds checking
 - **Data Integrity** - Robust file handling with error recovery
 
----
 
-## 🚀 Getting Started
+## Set Up
 
 ### Prerequisites
 - **C++ Compiler**: GCC 7.0+, Clang 6.0+, or MSVC 2017+
@@ -41,7 +37,7 @@
 - **Memory**: Minimum 512MB RAM
 - **Storage**: 50MB free space for data files
 
-### 📦 Installation & Compilation
+### Installation & Compilation
 
 #### Method 1: Standard Compilation
 ```bash
@@ -58,14 +54,13 @@ g++ -std=c++11 -O2 -o banking_system main.cpp BankSystem.cpp
 g++ -std=c++11 -g -DDEBUG -o banking_system main.cpp BankSystem.cpp
 ```
 
-### 🎯 Running the Application
+### Running the Application
 ```bash
 ./banking_system
 ```
 
----
 
-## 🏗️ System Architecture
+## System Architecture
 
 ### Class Structure
 ```
@@ -94,7 +89,7 @@ BankingSystem
     └── Display Functions
 ```
 
-### 📁 File Structure
+### File Structure
 - **`accounts.dat`** - Encrypted account information storage
 - **`transactions.dat`** - Complete transaction history log
 - **`statement_*.txt`** - Generated account statements
@@ -102,11 +97,10 @@ BankingSystem
 - **`BankSystem.cpp`** - Implementation file with all methods
 - **`main.cpp`** - Entry point and error handling
 
----
 
-## 💡 Key Features & Improvements
+## Key Features & Improvements
 
-### 🌟 Enhanced Over Basic Systems
+### Enhanced Over Basic Systems
 
 1. **Professional Design**
    - Beautiful ASCII art interface
@@ -134,7 +128,7 @@ BankingSystem
    - Input validation and feedback
    - Cross-platform compatibility
 
-### 🔧 Technical Specifications
+### Technical Specifications
 
 - **Minimum Balance**: ₹100 for all accounts
 - **Account Types**: Savings and Current accounts
@@ -143,9 +137,8 @@ BankingSystem
 - **Memory Management**: Efficient vector-based storage
 - **Error Handling**: Comprehensive exception management
 
----
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### Creating Your First Account
 1. Launch the application
@@ -168,9 +161,8 @@ BankingSystem
 - **Transaction History**: Complete list of all transactions
 - **Account Statement**: Detailed report exported to text file
 
----
 
-## 🛠️ Advanced Configuration
+## Advanced Configuration
 
 ### Customization Options
 ```cpp
@@ -186,9 +178,8 @@ The modular design allows easy extension:
 - Extend `BankAccount` class for additional account information
 - Implement new operations in `BankingSystem` class
 
----
 
-## 🔒 Security Features
+## Security Features
 
 ### Data Protection
 - **Password Encryption**: Secure password storage
@@ -200,9 +191,8 @@ The modular design allows easy extension:
 - **Business Rules**: Minimum balance and transaction limits
 - **Error Recovery**: Graceful handling of file and system errors
 
----
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 ### Planned Features
 - [ ] **Interest Calculation** - Automatic interest computation for savings accounts
@@ -221,33 +211,10 @@ The modular design allows easy extension:
 - [ ] **API Integration** - RESTful API for external systems
 - [ ] **Reporting Engine** - Advanced analytics and reporting
 
----
 
-## 🤝 Contributing
+## Disclaimer
 
-This project is developed and maintained by **Riddhi Chakraborty**. 
-
-### Development Guidelines
-- Follow existing code style and conventions
-- Add comprehensive comments for new features
-- Test all functionality before committing
-- Update documentation for any changes
-
----
-
-## 📞 Support & Contact
-
-**Developer**: Riddhi Chakraborty  
-**Project**: Advanced Banking Management System  
-**Version**: 2.0 Enhanced Edition  
-
-For technical support or feature requests, please refer to the code documentation or create detailed issue reports.
-
----
-
-## 📄 License & Disclaimer
-
-This software is developed for educational and demonstration purposes. It showcases advanced C++ programming concepts including:
+It showcases advanced C++ programming concepts including:
 - Object-Oriented Programming (OOP)
 - File I/O Operations
 - Data Structures and Algorithms
@@ -256,11 +223,6 @@ This software is developed for educational and demonstration purposes. It showca
 
 **Note**: This is a console-based simulation and should not be used for actual financial transactions without proper security auditing and compliance verification.
 
----
-
-*"Banking made simple, secure, and efficient!"* - Riddhi Chakraborty
-
----
 
 ## 🎯 Quick Start Commands
 
@@ -275,4 +237,4 @@ g++ -std=c++11 -o banking_system main.cpp BankSystem.cpp
 banking_system.exe
 ```
 
-**Happy Banking! 🏦✨**
+**Happy Banking! **
