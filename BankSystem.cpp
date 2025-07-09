@@ -11,7 +11,7 @@ BankAccount::BankAccount(string accNo, string name, string pass, double bal, str
       accountType(type), isActive(true) {
     creationDate = getCurrentDate();
 }
-
+//info
 void BankAccount::setAccountNumber(const string& accNo) { accountNumber = accNo; }
 void BankAccount::setAccountHolderName(const string& name) { accountHolderName = name; }
 void BankAccount::setPassword(const string& pass) { password = pass; }
