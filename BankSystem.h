@@ -102,7 +102,7 @@ public:
     void displayHeader();
     void displayFooter();
     
-    // Main system loop
+    // Main System loop
     void runBankingSystem();
 };
 
